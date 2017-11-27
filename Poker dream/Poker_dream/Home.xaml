@@ -17,6 +17,6 @@
             <Button HorizontalOptions="End" Text="Log In" FontSize="Micro" HeightRequest="35"
             Clicked="Button_Clicked"></Button>
          </Grid>
-        <Image x:Name="MyLocalImage" WidthRequest="75" HeightRequest="200"/>
+        <Image x:Name="MyLocalImage" WidthRequest="75" HeightRequest="200" />
     </StackLayout>
 </ContentPage>

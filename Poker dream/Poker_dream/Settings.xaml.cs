@@ -18,19 +18,7 @@ namespace Poker_dream
 
         }
 
-        public void OnTimeChosen()
-        {
-
-
-        }
-
-        public void OnRoleChosen()
-        {
-
-
-        }
-
-        private void PlayerRole_OnTapped(object sender, EventArgs e)
+         private void PlayerRole_OnTapped(object sender, EventArgs e)
         {
             PlayerRole.Focus();
         }

@@ -12,16 +12,44 @@ namespace Poker_dream
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Cards : ContentPage
 	{
-		public Cards ()
+        public Cards ()
 		{
             InitializeComponent ();
-            Card1.Source = ImageSource.FromFile("Card_7.jpg");
-            Card2.Source = ImageSource.FromFile("Card_10.jpg");
-            Card3.Source = ImageSource.FromFile("Ace.jpg");
-            Card4.Source = ImageSource.FromFile("Card_8.jpg");
-            Card5.Source = ImageSource.FromFile("Card_3.jpg");
-            Card6.Source = ImageSource.FromFile("Card_9.jpg");
-            Card7.Source = ImageSource.FromFile("Card_6.jpg");
         }
-	}
+
+        void Card1_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card2_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card3_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card4_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card5_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card6_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+
+        void Card7_Tapped(object sender, EventArgs args)
+        {
+            DisplayAlert("Test", "Hello World", "OK");
+        }
+    }
 }
