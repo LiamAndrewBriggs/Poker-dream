@@ -5,6 +5,9 @@
              Title="Cards">
     <ContentPage.Content>
         <StackLayout BackgroundColor="Black" Padding="2">
+            <Picker x:Name="Card_List" IsVisible="False"
+                SelectedIndexChanged="Card_Changed">
+            </Picker>
             <Grid>
                 <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Cards" FontSize="15"/>
                 <Button HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Image="camera.png" />
