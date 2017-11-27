@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Poker_dream.Home" 
+             Title="Home">
+    <StackLayout BackgroundColor="Black"  Padding="5" >
+        <Label HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Poker Dream" FontSize="20"/>
+        <Label HorizontalTextAlignment="Center" TextColor="Green" Text= "The only thing we can't help with is your poker face!" FontSize="15"/>
+        <Entry x:Name="UserName" IsPassword="False" VerticalOptions="FillAndExpand" FontSize="Micro" Placeholder="Username" TextColor="White" BackgroundColor="Gray"/>
+        <Entry x:Name="Password" IsPassword="True" VerticalOptions="FillAndExpand" FontSize="Micro" Placeholder="Password" TextColor="Black" BackgroundColor="Gray"/>
+        <Grid  VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35" />
+            </Grid.RowDefinitions>
+            <Button HorizontalOptions="Start" Text="Create Account" FontSize="Micro" HeightRequest="35"
+            Clicked="Button_Clicked"></Button>
+            <Button HorizontalOptions="End" Text="Log In" FontSize="Micro" HeightRequest="35"
+            Clicked="Button_Clicked"></Button>
+         </Grid>
+        <Image x:Name="MyLocalImage" WidthRequest="75" HeightRequest="200"/>
+    </StackLayout>
+</ContentPage>

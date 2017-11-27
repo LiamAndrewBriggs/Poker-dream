@@ -1,0 +1,161 @@
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream.apk
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream-Signed.apk
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.dll
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.pdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\bin\com.companyname.Poker_dream.apk
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\values\styles.xml
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\R.cs.flag
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\uploadflags.txt
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.Android.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\pair_of_aces.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_7.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\camera.png
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_3.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_6.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_8.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_9.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_10.jpg
+C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream.apk
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream-Signed.apk
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csprojResolveAssemblyReference.cache
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csproj.CoreCompileInputs.cache
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\bin\com.companyname.Poker_dream.apk
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\values\styles.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\pair_of_aces.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\camera.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_3.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\R.cs.flag
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\uploadflags.txt
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\pair_of_aces.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\camera.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_3.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\card_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\pair_of_aces.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\camera.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_3.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\card_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\pair_of_aces.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\camera.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_3.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\card_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

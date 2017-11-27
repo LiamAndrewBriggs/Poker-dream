@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Poker_dream.Settings" 
+             Title="Settings">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="10">
+            <Grid>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Settings" FontSize="15"/>
+            </Grid>
+            <Grid>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Game Settings:" FontSize="15"/>
+            </Grid>
+            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+                <Label Text="Your Start Role:" FontSize="12" FontAttributes="Bold" TextColor="White"/>
+                <Picker x:Name="PlayerRole" IsVisible="False"
+                SelectedIndexChanged="PlayerRole_List">
+                    <Picker.Items>
+                        <x:String>Dealer</x:String>
+                        <x:String>Big Blind</x:String>
+                        <x:String>Small Blind</x:String>
+                        <x:String>Player</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="PlayerRoleLabel" Text="Dealer"
+               FontSize="12" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PlayerRole_OnTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+                <Label Text="Number Of Players:" FontSize="12" FontAttributes="Bold" TextColor="White"/>
+                <Picker x:Name="NumPlayers" IsVisible="False"
+                SelectedIndexChanged="NumPlayers_List">
+                    <Picker.Items>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                        <x:String>10</x:String>
+                        <x:String>11</x:String>
+                        <x:String>12</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="NumPlayersLabel" Text="2"
+               FontSize="12" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="NumPlayers_OnTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <Grid Margin="0,10,10,0">
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Blind Settings:" FontSize="15"/>
+            </Grid>
+            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Label Text="Enter Small Blind Amount:" FontSize="12" FontAttributes="Bold" TextColor="White"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Entry x:Name="BlindAmount" HorizontalOptions="EndAndExpand" TextColor="White" Placeholder="Tap To Insert" FontSize="12" FontAttributes="Bold" PlaceholderColor="Red" HorizontalTextAlignment="End"/>
+                </Grid>
+            </Grid>
+            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+                <Label Text="Choose Blind Increase Time:" FontSize="12" FontAttributes="Bold" TextColor="White"/>
+                <Picker x:Name="BlindTime" IsVisible="False"
+                SelectedIndexChanged="BlindTime_List">
+                    <Picker.Items>
+                        <x:String>10 minutes</x:String>
+                        <x:String>15 minutes</x:String>
+                        <x:String>20 minutes</x:String>
+                        <x:String>25 minutes</x:String>
+                        <x:String>30 minutes</x:String>
+                        <x:String>35 minutes</x:String>
+                        <x:String>40 minutes</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="BlindTimeLabel" Text="10 minutes"
+               FontSize="12" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BlindTime_OnTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <Grid VerticalOptions="End">
+                <Button HorizontalOptions="Start" Text="Save Settings" FontSize="Micro" HeightRequest="35" Clicked="Save_Button"/>
+                <Button HorizontalOptions="End" Text="How To Set Up" FontSize="Micro" HeightRequest="35"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

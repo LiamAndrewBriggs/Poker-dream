@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Poker_dream"
+             x:Class="Poker_dream.TabHome"
+            >
+    
+    <local:Home></local:Home>
+    <local:Cards></local:Cards>
+    <local:Play></local:Play>
+    <local:Settings></local:Settings>
+
+</TabbedPage>

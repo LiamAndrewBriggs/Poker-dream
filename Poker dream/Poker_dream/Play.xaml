@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Poker_dream.Play" 
+             Title="In Play">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black"  Spacing="10"  Padding="5">
+            <Grid>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "In Play" FontSize="15"/>
+                <Button HorizontalOptions="End" Text="Start Game" FontSize="Micro" HeightRequest="35" WidthRequest="70" Clicked="Start_Game"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="PlayerRole" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Role: Dealer" FontSize="12"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Micro" HeightRequest="35"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="BlindTimer" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Next Blind Update: 1:45" FontSize="12"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="BigBlind" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Big Blind: 100" FontSize="12"/>
+                <Label x:Name="SmallBlind" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Small Blind: 50" FontSize="12"/>
+            </Grid>
+            <Grid>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Best Hand:" FontSize="12"/>
+            </Grid>
+            <Grid Padding="10">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Column="0">
+                    <Image x:Name="Card1" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Image x:Name="Card2" WidthRequest="75" HeightRequest="75" />
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Image x:Name="Card3" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Image x:Name="Card4" WidthRequest="75" HeightRequest="75" />
+                </Grid>
+                <Grid Grid.Column="4">
+                    <Image x:Name="Card5" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+
+            </Grid>
+            <Grid>
+                <Button HorizontalOptions="Center" Text="Tip" FontSize="Micro" HeightRequest="35"/>
+            </Grid>
+            <Grid>
+                <Button HorizontalOptions="End" Text="New Hand" FontSize="Micro" HeightRequest="35"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

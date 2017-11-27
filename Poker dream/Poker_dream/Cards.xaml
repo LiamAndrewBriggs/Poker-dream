@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Poker_dream.Cards"
+             Title="Cards">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="2">
+            <Grid>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Cards" FontSize="15"/>
+                <Button HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Image="camera.png" />
+            </Grid>
+            <Grid>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "Your Hand:" FontSize="12"/>
+            </Grid>
+            <Grid>
+                <Image x:Name="Card1" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start"/>
+                <Image x:Name="Card2" WidthRequest="90" HeightRequest="90"/>
+            </Grid>
+            <Grid Padding="10">
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: Straight" FontSize="12"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Micro" HeightRequest="35" WidthRequest="70"/>
+            </Grid>
+            <Grid>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "On the Table:" FontSize="12"/>
+            </Grid>
+            <Grid Padding="10">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Image x:Name="Card3" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Image x:Name="Card4" WidthRequest="75" HeightRequest="75" />
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Image x:Name="Card5" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Image x:Name="Card6" WidthRequest="75" HeightRequest="75" />
+                </Grid>
+                <Grid Grid.Column="4">
+                    <Image x:Name="Card7" WidthRequest="75" HeightRequest="75"/>
+                </Grid>
+                                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
