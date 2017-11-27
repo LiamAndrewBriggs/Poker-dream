@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 using Xamarin.Forms;
@@ -16,15 +17,12 @@ namespace Poker_dream
         int seconds = 0; 
         bool finishGame = false;
 
+        private Dictionary<string, string[]> cardInfo = new Dictionary<string, string[]>();
+
         public Play()
         {
             InitializeComponent();
-            Card1.Source = ImageSource.FromFile("Spade_6.jpg");
-            Card2.Source = ImageSource.FromFile("Club_7.jpg");
-            Card3.Source = ImageSource.FromFile("Club_8.jpg");
-            Card4.Source = ImageSource.FromFile("Heart_9.jpg");
-            Card5.Source = ImageSource.FromFile("Spade_10.jpg");
-
+            
             MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => { PlayerRole.Text = "Your role: " + e; });
             MessagingCenter.Subscribe<Settings, string>(this, "BlindAmount", (sender, e) => {
 
@@ -50,6 +48,27 @@ namespace Poker_dream
 
             });
 
+            MessagingCenter.Subscribe<Cards, Dictionary<string, string>>(this, "Cards_Pulled", (sender, e) => {
+
+                Dictionary<string, string> selectedCards = e;
+
+                
+                foreach (var card in selectedCards)
+                {
+                    string[] cardInformation = new string[3];
+                    string cardName = card.Value.Replace(".jpg", "");
+                    int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
+
+                    cardInformation [0] = cardName.Substring(0, charLocation);
+                    cardInformation [1] = cardName.Substring(charLocation + 1);
+                    cardInformation[2] = card.Value;
+
+                    cardInfo.Add(card.Key, cardInformation);
+                }
+                bestHand();
+
+            });
+
         }
 
         private void Start_Game(object sender, EventArgs e)
@@ -58,6 +77,13 @@ namespace Poker_dream
 
             Xamarin.Forms.Device.StartTimer(time, updateBlind);
                         
+        }
+
+        private void bestHand()
+        {
+           
+
+            
         }
 
         private bool updateBlind()
