@@ -19,11 +19,11 @@ namespace Poker_dream
         public Play()
         {
             InitializeComponent();
-            Card1.Source = ImageSource.FromFile("Card_6.jpg");
-            Card2.Source = ImageSource.FromFile("Card_7.jpg");
-            Card3.Source = ImageSource.FromFile("Card_8.jpg");
-            Card4.Source = ImageSource.FromFile("Card_9.jpg");
-            Card5.Source = ImageSource.FromFile("Card_10.jpg");
+            Card1.Source = ImageSource.FromFile("Spade_6.jpg");
+            Card2.Source = ImageSource.FromFile("Club_7.jpg");
+            Card3.Source = ImageSource.FromFile("Club_8.jpg");
+            Card4.Source = ImageSource.FromFile("Heart_9.jpg");
+            Card5.Source = ImageSource.FromFile("Spade_10.jpg");
 
             MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => { PlayerRole.Text = "Your role: " + e; });
             MessagingCenter.Subscribe<Settings, string>(this, "BlindAmount", (sender, e) => {

@@ -19,7 +19,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid Grid.Column="0">
-                    <Image x:Name="Card1" Source="Card_7.jpg" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start">
+                    <Image x:Name="Card1" Source="Not_Selected.jpg" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
                             Tapped="Card1_Tapped"
@@ -28,10 +28,10 @@
                     </Image>
                 </Grid>
                 <Grid Grid.Column="1">
-                    <Image x:Name="Card2" Source="Card_10.jpg"  WidthRequest="90" HeightRequest="90">
+                    <Image x:Name="Card2" Source="Not_Selected.jpg"  WidthRequest="90" HeightRequest="90">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
-                            Tapped="Card1_Tapped"
+                            Tapped="Card2_Tapped"
                             NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
@@ -55,7 +55,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid Grid.Column="0">
-                    <Image x:Name="Card3" Source="Card_10.jpg" WidthRequest="75" HeightRequest="75">
+                    <Image x:Name="Card3" Source="Not_Selected.jpg" WidthRequest="75" HeightRequest="75">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer
                             Tapped="Card3_Tapped"
@@ -64,7 +64,7 @@
                     </Image>
                 </Grid>
                 <Grid Grid.Column="1">
-                    <Image x:Name="Card4" Source="Card_10.jpg"  WidthRequest="75" HeightRequest="75" >
+                    <Image x:Name="Card4" Source="Not_Selected.jpg"  WidthRequest="75" HeightRequest="75" >
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
                                Tapped="Card4_Tapped"
@@ -73,7 +73,7 @@
                     </Image>
                 </Grid>
                 <Grid Grid.Column="2">
-                    <Image x:Name="Card5" Source="Card_10.jpg" WidthRequest="75" HeightRequest="75">
+                    <Image x:Name="Card5" Source="Not_Selected.jpg" WidthRequest="75" HeightRequest="75">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
                             Tapped="Card5_Tapped"
@@ -82,7 +82,7 @@
                     </Image>
                 </Grid>
                 <Grid Grid.Column="3">
-                    <Image x:Name="Card6" Source="Card_10.jpg"  WidthRequest="75" HeightRequest="75" >
+                    <Image x:Name="Card6" Source="Not_Selected.jpg"  WidthRequest="75" HeightRequest="75" >
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
                             Tapped="Card6_Tapped"
@@ -91,7 +91,7 @@
                     </Image>
                 </Grid>
                 <Grid Grid.Column="4">
-                    <Image x:Name="Card7" Source="Card_10.jpg" WidthRequest="75" HeightRequest="75">
+                    <Image x:Name="Card7" Source="Not_Selected.jpg" WidthRequest="75" HeightRequest="75">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
                             Tapped="Card7_Tapped"
