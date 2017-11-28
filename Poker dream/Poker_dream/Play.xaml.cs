@@ -17,6 +17,10 @@ namespace Poker_dream
         int seconds = 0; 
         bool finishGame = false;
 
+        private const int card_suit = 0;
+        private const int card_number = 1;
+        private const int card_picture = 2;
+
         private Dictionary<string, string[]> cardInfo = new Dictionary<string, string[]>();
 
         public Play()
@@ -59,9 +63,26 @@ namespace Poker_dream
                     string cardName = card.Value.Replace(".jpg", "");
                     int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
 
-                    cardInformation [0] = cardName.Substring(0, charLocation);
-                    cardInformation [1] = cardName.Substring(charLocation + 1);
-                    cardInformation[2] = card.Value;
+                    cardInformation [card_suit] = cardName.Substring(0, charLocation);
+                    cardInformation [card_number] = cardName.Substring(charLocation + 1);
+                    cardInformation[card_picture] = card.Value;
+
+                    if(cardInformation[card_number] == "Jack")
+                    {
+                        cardInformation[card_number] = "11";
+                    }
+                    else if (cardInformation[card_number] == "Queen")
+                    {
+                        cardInformation[card_number] = "12";
+                    }
+                    else if (cardInformation[card_number] == "King")
+                    {
+                        cardInformation[card_number] = "13";
+                    }
+                    else if (cardInformation[card_number] == "Ace")
+                    {
+                        cardInformation[card_number] = "14";
+                    }
 
                     cardInfo.Add(card.Key, cardInformation);
                 }
@@ -81,7 +102,20 @@ namespace Poker_dream
 
         private void bestHand()
         {
-           
+            if (cardInfo.Count < 3)
+            {
+                if (Convert.ToInt32(cardInfo["Card_1"][card_number]) > Convert.ToInt32(cardInfo["Card_2"][card_number]))
+                {
+                    Card1.Source = cardInfo["Card_1"][card_picture];
+                    Card2.Source = cardInfo["Card_2"][card_picture];
+                }
+                else
+                {
+                    Card1.Source = cardInfo["Card_2"][card_picture];
+                    Card2.Source = cardInfo["Card_1"][card_picture];
+                }
+
+            }
 
             
         }

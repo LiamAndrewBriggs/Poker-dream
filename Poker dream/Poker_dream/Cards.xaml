@@ -41,7 +41,7 @@
                 </Grid>
             </Grid>
             <Grid Padding="10">
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: Straight" FontSize="12"/>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: N/A" FontSize="12"/>
                 <Button HorizontalOptions="End" Text="More Info" FontSize="Micro" HeightRequest="35" WidthRequest="70"/>
             </Grid>
             <Grid>
