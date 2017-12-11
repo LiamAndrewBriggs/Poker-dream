@@ -108,6 +108,10 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Poker_dream.Android.dll" comes first in this list. */
 		"Poker_dream.Android.dll",
 		"FormsViewGroup.dll",
+		"Poker_dream.dll",
+		"Xamarin.Android.Arch.Core.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
@@ -128,7 +132,6 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"Poker_dream.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

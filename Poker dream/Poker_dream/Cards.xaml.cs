@@ -48,9 +48,9 @@ namespace Poker_dream
 
         private string selectedCard = "";
 
-        public Cards ()
+        public Cards()
 		{
-            InitializeComponent ();
+            InitializeComponent();
 
             foreach (var item in cardToPicture)
             {

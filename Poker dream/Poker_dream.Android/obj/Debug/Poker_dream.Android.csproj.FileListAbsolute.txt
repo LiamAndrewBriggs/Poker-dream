@@ -71,6 +71,9 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream-Signed.apk
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Arch.Lifecycle.Runtime.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
@@ -93,15 +96,11 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.pdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csprojResolveAssemblyReference.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csproj.CoreCompileInputs.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.dll
@@ -110,52 +109,10 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\tabbar.xml
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\layout\toolbar.xml
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\values\styles.xml
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\camera.png
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\R.cs.flag
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\uploadflags.txt
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\camera.png
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\camera.png
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\camera.png
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\camera.png
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.Android.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\not_selected.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_3.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_6.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_7.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_8.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_9.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_10.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_ace.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_6.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_7.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_8.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_9.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_10.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_ace.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\not_selected.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_3.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_6.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_7.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_8.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_9.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_10.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_ace.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\not_selected.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_3.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_3.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_6.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_7.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_8.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_9.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_10.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_ace.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\not_selected.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\icon.png
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\icon.png
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\icon.png
@@ -174,6 +131,7 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\diamond_queen.jpg
@@ -184,27 +142,35 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\heart_queen.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\not_selected.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_2.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_5.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_queen.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_2.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_ace.jpg
@@ -220,6 +186,7 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\diamond_queen.jpg
@@ -230,26 +197,32 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\heart_queen.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\not_selected.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_2.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_5.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\spade_queen.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_2.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\club_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_ace.jpg
@@ -265,6 +238,7 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\diamond_queen.jpg
@@ -275,26 +249,33 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\heart_queen.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\not_selected.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_2.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_5.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\spade_queen.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_2.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\club_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_ace.jpg
@@ -310,6 +291,7 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_10.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\diamond_queen.jpg
@@ -320,27 +302,82 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_8.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_9.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\heart_queen.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\not_selected.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_2.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_5.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_9.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_10.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_ace.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_jack.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\spade_queen.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_2.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_3.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_4.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_6.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_7.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\club_8.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\pair_of_aces.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-hdpi\pair_of_aces.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xhdpi\pair_of_aces.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable-xxhdpi\pair_of_aces.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\R.cs.flag
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\uploadflags.txt
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
+bin\Debug\FormsViewGroup.dll.mdb
+bin\Debug\Poker_dream.dll.mdb
+bin\Debug\Xamarin.Forms.Core.dll.mdb
+bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\Poker_dream.Android.dll.mdb
+obj\Debug\linksrc\FormsViewGroup.dll.mdb
+obj\Debug\linksrc\Poker_dream.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
