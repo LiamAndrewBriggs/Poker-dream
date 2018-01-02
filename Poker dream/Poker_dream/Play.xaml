@@ -7,22 +7,22 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="Black"  Spacing="10"  Padding="5">
             <Grid>
-                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "In Play" FontSize="15"/>
-                <Button HorizontalOptions="End" Text="Start Game" FontSize="Micro" HeightRequest="35" WidthRequest="70" Clicked="Start_Game"/>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "In Play" FontSize="Large"/>
+                <Button HorizontalOptions="End" Text="Start Game" FontSize="Small" WidthRequest="70" Clicked="Start_Game"/>
             </Grid>
             <Grid>
-                <Label x:Name="PlayerRole" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Role: Dealer" FontSize="12"/>
-                <Button HorizontalOptions="End" Text="More Info" FontSize="Micro" HeightRequest="35"/>
+                <Label x:Name="PlayerRole" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Role: Dealer" FontSize="Small"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Small"/>
             </Grid>
             <Grid>
-                <Label x:Name="BlindTimer" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Next Blind Update: 1:45" FontSize="12"/>
+                <Label x:Name="BlindTimer" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Next Blind Update: 1:45" FontSize="Small"/>
             </Grid>
             <Grid>
-                <Label x:Name="BigBlind" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Big Blind: 100" FontSize="12"/>
-                <Label x:Name="SmallBlind" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Small Blind: 50" FontSize="12"/>
+                <Label x:Name="BigBlind" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Big Blind: 100" FontSize="Small"/>
+                <Label x:Name="SmallBlind" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Small Blind: 50" FontSize="Small"/>
             </Grid>
             <Grid>
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Best Hand:" FontSize="12"/>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Best Hand:" FontSize="Small"/>
             </Grid>
             <Grid Padding="10">
 
@@ -53,10 +53,10 @@
 
             </Grid>
             <Grid>
-                <Button HorizontalOptions="Center" Text="Tip" FontSize="Micro" HeightRequest="35"/>
+                <Button HorizontalOptions="Center" Text="Tip" FontSize="Small"/>
             </Grid>
             <Grid>
-                <Button HorizontalOptions="End" Text="New Hand" FontSize="Micro" HeightRequest="35"/>
+                <Button HorizontalOptions="End" Text="New Hand" FontSize="Small"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

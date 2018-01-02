@@ -9,11 +9,11 @@
                 SelectedIndexChanged="Card_Changed">
             </Picker>
             <Grid>
-                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Cards" FontSize="15"/>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Cards" FontSize="Large"/>
                 <Button HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Image="camera.png" />
             </Grid>
             <Grid>
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "Your Hand:" FontSize="12"/>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "Your Hand:" FontSize="Small"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -41,11 +41,11 @@
                 </Grid>
             </Grid>
             <Grid Padding="10">
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: N/A" FontSize="12"/>
-                <Button HorizontalOptions="End" Text="More Info" FontSize="Micro" HeightRequest="35" WidthRequest="70"/>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: N/A" FontSize="Small"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Small" />
             </Grid>
             <Grid>
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "On the Table:" FontSize="12"/>
+                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "On the Table:" FontSize="Small"/>
             </Grid>
             <Grid Padding="10">
 

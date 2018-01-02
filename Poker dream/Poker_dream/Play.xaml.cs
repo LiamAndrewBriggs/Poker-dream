@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using System.Linq;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -55,8 +56,7 @@ namespace Poker_dream
             MessagingCenter.Subscribe<Cards, Dictionary<string, string>>(this, "Cards_Pulled", (sender, e) => {
 
                 Dictionary<string, string> selectedCards = e;
-
-                
+                                
                 foreach (var card in selectedCards)
                 {
                     string[] cardInformation = new string[3];
@@ -102,6 +102,14 @@ namespace Poker_dream
 
         private void bestHand()
         {
+            Dictionary<string, string> cardSuit = new Dictionary<string, string>();
+            Dictionary<string, int> cardNumber = new Dictionary<string, int>();
+
+            foreach (var card in cardInfo)
+            {
+                cardNumber.Add(card.Key, Int32.Parse(card.Value[card_number])); 
+            }
+            
             if (cardInfo.Count < 3)
             {
                 if (Convert.ToInt32(cardInfo["Card_1"][card_number]) > Convert.ToInt32(cardInfo["Card_2"][card_number]))
@@ -116,8 +124,32 @@ namespace Poker_dream
                 }
 
             }
+            else
+            {
+                var myList = cardNumber.ToList();
 
-            
+                myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                Card1.Source = cardInfo[myList[0].Key][card_picture];
+                Card2.Source = cardInfo[myList[1].Key][card_picture];
+                Card3.Source = cardInfo[myList[2].Key][card_picture];
+
+                if(myList.ElementAtOrDefault(3).Key != null)
+                {
+                    Card4.Source = cardInfo[myList[3].Key][card_picture];
+                }
+
+                if (myList.ElementAtOrDefault(4).Key != null)
+                {
+                    Card5.Source = cardInfo[myList[4].Key][card_picture];
+                }
+
+            }
+
+
+            cardInfo = new Dictionary<string, string[]>();
+
+
         }
 
         private bool updateBlind()

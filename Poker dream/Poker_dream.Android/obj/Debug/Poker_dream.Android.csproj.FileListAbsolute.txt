@@ -65,6 +65,7 @@ C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\De
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_9.jpg
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_10.jpg
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\ace.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csprojResolveAssemblyReference.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream.apk
@@ -96,12 +97,15 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csprojResolveAssemblyReference.cache
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.csproj.CoreCompileInputs.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\Poker_dream.Android.pdb
@@ -336,10 +340,6 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\R.cs.flag
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\uploadflags.txt
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.Android.dll.mdb
@@ -348,11 +348,8 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
-bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Poker_dream.dll
 bin\Debug\Poker_dream.dll.mdb
-bin\Debug\Xamarin.Forms.Core.dll.mdb
-bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb

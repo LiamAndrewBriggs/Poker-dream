@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.5",
     "Xamarin.Forms": "2.5.0.121934"
   },
   "frameworks": {
