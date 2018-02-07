@@ -105,6 +105,9 @@ namespace Poker_dream
             Dictionary<string, string> cardSuit = new Dictionary<string, string>();
             Dictionary<string, int> cardNumber = new Dictionary<string, int>();
 
+            bool duplicateNumbers = false;
+            List<string> duplicates = new List<string>();
+
             foreach (var card in cardInfo)
             {
                 cardNumber.Add(card.Key, Int32.Parse(card.Value[card_number])); 
@@ -128,28 +131,198 @@ namespace Poker_dream
             {
                 var myList = cardNumber.ToList();
 
-                myList.Sort((x, y) => y.Value.CompareTo(x.Value));
-
-                Card1.Source = cardInfo[myList[0].Key][card_picture];
-                Card2.Source = cardInfo[myList[1].Key][card_picture];
-                Card3.Source = cardInfo[myList[2].Key][card_picture];
-
-                if(myList.ElementAtOrDefault(3).Key != null)
+                //check for any duplicates
+                var pairs = cardNumber.ToLookup(x => x.Value, x => x.Key).Where(x => x.Count() > 1);
+                foreach (var item in pairs)
                 {
-                    Card4.Source = cardInfo[myList[3].Key][card_picture];
+                    duplicateNumbers = true;
+                    duplicates.Add(item.Aggregate("", (s, v) => s + v + ", "));
                 }
 
-                if (myList.ElementAtOrDefault(4).Key != null)
+                if (duplicateNumbers)
                 {
-                    Card5.Source = cardInfo[myList[4].Key][card_picture];
+                    pairHands(myList, duplicates);
+                }
+                else
+                {
+                    highCard(myList);
                 }
 
             }
 
 
             cardInfo = new Dictionary<string, string[]>();
+        }
 
+        private void pairHands(List<KeyValuePair<string,int>> myList, List<string> pairs)
+        {
+            List <string> cardNumbers = new List<string>();
+            int initialCount = 0;
+            int fullHousePosition = 0;
+            int loopCount = 0;
 
+            foreach (string length in pairs)
+            {
+                int newCount = length.Length - length.Replace(",", "").Length;
+
+                if(newCount > initialCount)
+                {
+                    initialCount = newCount;
+                    fullHousePosition = loopCount;
+                }
+
+                loopCount++;
+            }
+
+            if (initialCount == 4)
+            {
+                pairs[fullHousePosition] = Regex.Replace(pairs[fullHousePosition], @"\s+", "");
+                cardNumbers = pairs[fullHousePosition].Split(',').ToList();
+
+                Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+
+                char theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                int number = (int)Char.GetNumericValue(theLastCharacter);
+                myList.RemoveAt(number - 1);
+
+                Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+
+                theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                number = (int)Char.GetNumericValue(theLastCharacter);
+                myList.RemoveAt(number - 2);
+
+                Card3.Source = cardInfo[cardNumbers[2]][card_picture];
+
+                theLastCharacter = cardNumbers[2][cardNumbers[2].Length - 1];
+                number = (int)Char.GetNumericValue(theLastCharacter);
+                myList.RemoveAt(number - 3);
+
+                Card4.Source = cardInfo[cardNumbers[3]][card_picture];
+
+                theLastCharacter = cardNumbers[3][cardNumbers[3].Length - 1];
+                number = (int)Char.GetNumericValue(theLastCharacter);
+                myList.RemoveAt(number - 4);
+
+                //Sort out the cards into decending order
+                myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                if (myList.ElementAtOrDefault(0).Key != null)
+                {
+                    Card5.Source = cardInfo[myList[0].Key][card_picture];
+                }
+            }
+            else if (pairs.Count == 1)
+            {
+                int count = pairs[0].Length - pairs[0].Replace(",", "").Length;
+                pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
+                cardNumbers = pairs[0].Split(',').ToList();
+
+                if (count == 2)
+                {
+                    Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+
+                    char theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                    int number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 1);
+
+                    Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+
+                    theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 2);
+
+                    //Sort out the cards into decending order
+                    myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                    Card3.Source = cardInfo[myList[0].Key][card_picture];
+
+                    if (myList.ElementAtOrDefault(1).Key != null)
+                    {
+                        Card4.Source = cardInfo[myList[1].Key][card_picture];
+                    }
+
+                    if (myList.ElementAtOrDefault(2).Key != null)
+                    {
+                        Card5.Source = cardInfo[myList[2].Key][card_picture];
+                    }
+                }
+                else if (count == 3)
+                {
+                    Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+
+                    char theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                    int number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 1);
+
+                    Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+
+                    theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 2);
+
+                    Card3.Source = cardInfo[cardNumbers[2]][card_picture];
+
+                    theLastCharacter = cardNumbers[2][cardNumbers[2].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 3);
+
+                    //Sort out the cards into decending order
+                    myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                    if (myList.ElementAtOrDefault(0).Key != null)
+                    {
+                        Card4.Source = cardInfo[myList[0].Key][card_picture];
+                    }
+
+                    if (myList.ElementAtOrDefault(1).Key != null)
+                    {
+                        Card5.Source = cardInfo[myList[1].Key][card_picture];
+                    }
+                }
+            }
+            else if (pairs.Count == 2)
+            {
+                int count = pairs[0].Length - pairs[0].Replace(",", "").Length;
+                int count2 = pairs[1].Length - pairs[0].Replace(",", "").Length;
+
+                pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
+                pairs[1] = Regex.Replace(pairs[1], @"\s+", "");
+
+                if (count == 2 || count == 3)
+                {
+                    if (count2 == 2 || count2 == 3)
+                    {
+                        if(count == 3)
+                        {
+
+                        }
+                        else if(count2 == 3)
+                        {
+
+                        }
+                    }
+                }
+            }
+        }
+
+        private void highCard(List<KeyValuePair<string, int>> myList)
+        {
+            //Sort out the cards into decending order
+            myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+            Card1.Source = cardInfo[myList[0].Key][card_picture];
+            Card2.Source = cardInfo[myList[1].Key][card_picture];
+            Card3.Source = cardInfo[myList[2].Key][card_picture];
+
+            if (myList.ElementAtOrDefault(3).Key != null)
+            {
+                Card4.Source = cardInfo[myList[3].Key][card_picture];
+            }
+
+            if (myList.ElementAtOrDefault(4).Key != null)
+            {
+                Card5.Source = cardInfo[myList[4].Key][card_picture];
+            }
         }
 
         private bool updateBlind()
