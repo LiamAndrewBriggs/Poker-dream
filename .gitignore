@@ -1,5 +1,15 @@
+.vs/
+
+*.ide
+
+*.cache
+
+*.ide-wal
 
 .vs/Poker dream/v15/.suo
-*.ide
-*.cache
-*.ide-wal
+
+.vs/Poker dream/v15/Server/sqlite3/storage.ide
+
+.vs/Poker dream/v15/Server/sqlite3/storage.ide-shm
+
+Poker dream.sln
