@@ -210,6 +210,8 @@ namespace Poker_dream
                 {
                     Card5.Source = cardInfo[myList[0].Key][card_picture];
                 }
+
+                BestHand.Text = "Best Hand: Four of a Kind";
             }
             else if (pairs.Count == 1)
             {
@@ -245,6 +247,8 @@ namespace Poker_dream
                     {
                         Card5.Source = cardInfo[myList[2].Key][card_picture];
                     }
+
+                    BestHand.Text = "Best Hand: Pair";
                 }
                 else if (count == 3)
                 {
@@ -278,29 +282,130 @@ namespace Poker_dream
                     {
                         Card5.Source = cardInfo[myList[1].Key][card_picture];
                     }
+
+                    BestHand.Text = "Best Hand: Three of a Kind";
                 }
             }
             else if (pairs.Count == 2)
             {
                 int count = pairs[0].Length - pairs[0].Replace(",", "").Length;
-                int count2 = pairs[1].Length - pairs[0].Replace(",", "").Length;
+                int count2 = pairs[1].Length - pairs[1].Replace(",", "").Length;
 
                 pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
                 pairs[1] = Regex.Replace(pairs[1], @"\s+", "");
 
-                if (count == 2 || count == 3)
+                if (count == 2 && count2 == 2)
                 {
-                    if (count2 == 2 || count2 == 3)
+                    pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
+                    pairs[1] = Regex.Replace(pairs[1], @"\s+", "");
+
+                    cardNumbers = pairs[0].Split(',').ToList();
+                    char theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                    int number = (int)Char.GetNumericValue(theLastCharacter);
+
+                    int highNumber = myList[number - 1].Value;
+
+                    cardNumbers = pairs[1].Split(',').ToList();
+                    theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+
+                    int compareNumber = myList[number - 1].Value;
+
+                    if (highNumber < compareNumber)
                     {
-                        if(count == 3)
-                        {
-
-                        }
-                        else if(count2 == 3)
-                        {
-
-                        }
+                        Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+                        Card2.Source = cardInfo[cardNumbers[1]][card_picture];
                     }
+                    else
+                    {
+                        Card3.Source = cardInfo[cardNumbers[0]][card_picture];
+                        Card4.Source = cardInfo[cardNumbers[1]][card_picture];
+                    }
+
+                    theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 1);
+
+                    theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 2);
+
+                    cardNumbers = pairs[0].Split(',').ToList();
+
+                    if (highNumber > compareNumber)
+                    {
+                        Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+                        Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+                    }
+                    else
+                    {
+                        Card3.Source = cardInfo[cardNumbers[0]][card_picture];
+                        Card4.Source = cardInfo[cardNumbers[1]][card_picture];
+                    }
+
+                    theLastCharacter = cardNumbers[0][cardNumbers[0].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+                    myList.RemoveAt(number - 1);
+
+                    theLastCharacter = cardNumbers[1][cardNumbers[1].Length - 1];
+                    number = (int)Char.GetNumericValue(theLastCharacter);
+
+                    if (myList.Count == 1)
+                    {
+                        myList.RemoveAt(0);
+                    }
+                    else if (myList.Count == 2)
+                    {
+                        myList.RemoveAt(number - 2);
+                    }
+                    else if (myList.Count == 3)
+                    {
+                        myList.RemoveAt(number - 3);
+                    }
+
+
+                    //Sort out the cards into decending order
+                    myList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                    if (myList.ElementAtOrDefault(0).Key != null)
+                    {
+                        Card5.Source = cardInfo[myList[0].Key][card_picture];
+                    }
+
+                    BestHand.Text = "Best Hand: Two Pair";
+                }
+                else
+                {
+                    if (count == 3)
+                    {
+                        pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
+                        cardNumbers = pairs[0].Split(',').ToList();
+                    }
+                    else if (count2 == 3)
+                    {
+                        pairs[1] = Regex.Replace(pairs[1], @"\s+", "");
+                        cardNumbers = pairs[1].Split(',').ToList();
+                    }
+
+                    Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+                    Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+                    Card3.Source = cardInfo[cardNumbers[2]][card_picture];
+
+                    if (count == 2)
+                    {
+                        pairs[0] = Regex.Replace(pairs[0], @"\s+", "");
+                        cardNumbers = pairs[0].Split(',').ToList();
+                    }
+                    else if (count2 == 2)
+                    {
+                        pairs[1] = Regex.Replace(pairs[1], @"\s+", "");
+                        cardNumbers = pairs[1].Split(',').ToList();
+                    }
+
+                    Card4.Source = cardInfo[cardNumbers[0]][card_picture];
+                    Card5.Source = cardInfo[cardNumbers[1]][card_picture];
+
+                    BestHand.Text = "Best Hand: Full House";
                 }
             }
         }
@@ -323,6 +428,8 @@ namespace Poker_dream
             {
                 Card5.Source = cardInfo[myList[4].Key][card_picture];
             }
+
+            BestHand.Text = "Best Hand: High Card";
         }
 
         private bool updateBlind()
