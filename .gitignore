@@ -15,3 +15,11 @@
 Poker dream.sln
 .vs/Poker dream/v15/.suo
 .vs/Poker dream/v15/Server/sqlite3/storage.ide
+.vs/Poker dream/v15/.suo
+Poker dream/Poker_dream.Android/bin/Debug/com.companyname.Poker_dream-Signed.apk
+*.apk
+*.mdb
+*.dll
+*.pdb
+*.txt
+*.props
