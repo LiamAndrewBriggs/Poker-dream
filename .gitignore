@@ -1,17 +1,10 @@
 .vs/
-
 *.ide
-
 *.cache
-
 *.ide-wal
-
 .vs/Poker dream/v15/.suo
-
 .vs/Poker dream/v15/Server/sqlite3/storage.ide
-
 .vs/Poker dream/v15/Server/sqlite3/storage.ide-shm
-
 Poker dream.sln
 .vs/Poker dream/v15/.suo
 .vs/Poker dream/v15/Server/sqlite3/storage.ide
@@ -23,3 +16,6 @@ Poker dream/Poker_dream.Android/bin/Debug/com.companyname.Poker_dream-Signed.apk
 *.pdb
 *.txt
 *.props
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/Server/sqlite3/storage.ide

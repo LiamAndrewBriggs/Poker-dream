@@ -17,6 +17,7 @@ namespace Poker_dream
         int minutes = 0;
         int seconds = 0; 
         bool finishGame = false;
+        bool otherHand = true;
 
         private const int card_suit = 0;
         private const int card_number = 1;
@@ -110,11 +111,14 @@ namespace Poker_dream
 
             foreach (var card in cardInfo)
             {
-                cardNumber.Add(card.Key, Int32.Parse(card.Value[card_number])); 
+                cardNumber.Add(card.Key, Int32.Parse(card.Value[card_number]));
+                cardSuit.Add(card.Key, card.Value[card_suit]);
             }
             
             if (cardInfo.Count < 3)
             {
+                otherHand = false;
+
                 if (Convert.ToInt32(cardInfo["Card_1"][card_number]) > Convert.ToInt32(cardInfo["Card_2"][card_number]))
                 {
                     Card1.Source = cardInfo["Card_1"][card_picture];
@@ -127,7 +131,18 @@ namespace Poker_dream
                 }
 
             }
-            else
+            else if (cardInfo.Count > 4)
+            {
+                var numberList = cardNumber.ToList();
+                var suitList = cardSuit.ToList();
+
+                //Sort out the cards into decending order
+                numberList.Sort((x, y) => y.Value.CompareTo(x.Value));
+
+                fiveCardCheck(numberList, suitList);
+            }
+            
+            if (otherHand)
             {
                 var myList = cardNumber.ToList();
 
@@ -150,8 +165,97 @@ namespace Poker_dream
 
             }
 
-
             cardInfo = new Dictionary<string, string[]>();
+            otherHand = true;
+        }
+
+        private void fiveCardCheck(List<KeyValuePair<string, int>> numberList, List<KeyValuePair<string, string>> suitList)
+        {
+            List<string> duplicates = new List<string>();
+            int suitCount = 0;
+            int countNumber = 0;
+            int biggestNumber = 0;
+            int numInOrder = 1;
+            int loopCount = 0;
+            int ListPosition = 0;
+            
+            var pairs = suitList.ToLookup(x => x.Value, x => x.Key).Where(x => x.Count() > 1);
+            foreach (var item in pairs)
+            {
+                duplicates.Add(item.Aggregate("", (s, v) => s + v + ", "));
+            }
+        
+            if(duplicates.Count == 1)
+            {
+                suitCount = duplicates[0].Length - duplicates[0].Replace(",", "").Length;
+            }
+
+            foreach (var item in numberList)
+            {
+                if(item.Value == countNumber - 1)
+                {
+                    numInOrder++;
+                }
+                else
+                {
+                    numInOrder = 1;
+                    biggestNumber = item.Value;
+                    ListPosition = loopCount;
+                }
+
+                countNumber = item.Value;
+                loopCount++;
+            }
+
+            if (suitCount == 5 || numInOrder == 5)
+            {
+                if (suitCount == 5 && numInOrder !=5)
+                {
+                    duplicates[0] = Regex.Replace(duplicates[0], @"\s+", "");
+                    List <string> cardNumbers = duplicates[0].Split(',').ToList();
+
+                    Card1.Source = cardInfo[cardNumbers[0]][card_picture];
+                    Card2.Source = cardInfo[cardNumbers[1]][card_picture];
+                    Card3.Source = cardInfo[cardNumbers[2]][card_picture];
+                    Card4.Source = cardInfo[cardNumbers[3]][card_picture];
+                    Card5.Source = cardInfo[cardNumbers[4]][card_picture];
+
+                    BestHand.Text = "Best Hand: Flush";
+                }
+                else if (suitCount != 5 && numInOrder == 5)
+                {
+                    Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
+                    Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
+                    Card3.Source = cardInfo[numberList[ListPosition + 2].Key][card_picture];
+                    Card4.Source = cardInfo[numberList[ListPosition + 3].Key][card_picture];
+                    Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
+
+                    BestHand.Text = "Best Hand: Straight";
+                }
+                else if (suitCount == 5 && numInOrder == 5 && biggestNumber != 14)
+                {
+                    Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
+                    Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
+                    Card3.Source = cardInfo[numberList[ListPosition + 2].Key][card_picture];
+                    Card4.Source = cardInfo[numberList[ListPosition + 3].Key][card_picture];
+                    Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
+
+                    BestHand.Text = "Best Hand: Straight flush";
+                }
+                else if (suitCount == 5 && numInOrder == 5 && biggestNumber == 14)
+                {
+                    Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
+                    Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
+                    Card3.Source = cardInfo[numberList[ListPosition + 2].Key][card_picture];
+                    Card4.Source = cardInfo[numberList[ListPosition + 3].Key][card_picture];
+                    Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
+
+                    BestHand.Text = "Best Hand: Royal flush";
+                }
+
+
+                otherHand = false;
+            }
         }
 
         private void pairHands(List<KeyValuePair<string,int>> myList, List<string> pairs)
