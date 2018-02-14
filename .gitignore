@@ -1,7 +1,26 @@
 .vs/
 .vs/Poker dream/v15/.suo
 .vs/Poker dream/v15/Server/sqlite3/storage.ide
+*.ide
+*.cache
+*.ide-wal
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/Server/sqlite3/storage.ide
+.vs/Poker dream/v15/Server/sqlite3/storage.ide-shm
+>>>>>>> development
 Poker dream.sln
 .vs/Poker dream/v15/.suo
 .vs/Poker dream/v15/Server/sqlite3/storage.ide
 *.apk
+*.mdb
+*.dll
+*.pdb
+*.txt
+*.props
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/Server/sqlite3/storage.ide
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/Server/sqlite3/storage.ide
+.vs/Poker dream/v15/.suo
+.vs/Poker dream/v15/Server/sqlite3/storage.ide
