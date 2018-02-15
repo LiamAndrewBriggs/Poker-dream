@@ -65,9 +65,6 @@ C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\De
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_9.jpg
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\card_10.jpg
 C:\Users\User\Desktop\Project\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\ace.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_3.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_4.jpg
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\Poker_dream.Android.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\bin\Debug\com.companyname.Poker_dream.apk
@@ -170,6 +167,9 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_king.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\spade_queen.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_2.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_3.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_4.jpg
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_5.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_6.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_7.jpg
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\res\drawable\club_8.jpg
