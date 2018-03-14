@@ -41,7 +41,6 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csprojResolveAssemblyReference.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csproj.CoreCompileInputs.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.App.xaml.g.cs
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.TabHome.xaml.g.cs
