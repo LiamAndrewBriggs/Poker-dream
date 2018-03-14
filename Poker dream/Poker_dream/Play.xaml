@@ -12,10 +12,10 @@
             </Grid>
             <Grid>
                 <Label x:Name="PlayerRole" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Role: Dealer" FontSize="Small"/>
-                <Button HorizontalOptions="End" Text="More Info" FontSize="Small"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Small" Clicked="Role_Info_Clicked"/>
             </Grid>
             <Grid>
-                <Label x:Name="BlindTimer" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Next Blind Update: 1:45" FontSize="Small"/>
+                <Label x:Name="BlindTimer" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Next Blind Update: 10.00" FontSize="Small"/>
             </Grid>
             <Grid>
                 <Label x:Name="BigBlind" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Big Blind: 100" FontSize="Small"/>
@@ -54,9 +54,6 @@
             </Grid>
             <Grid>
                 <Button HorizontalOptions="Center" Text="Tip" FontSize="Small"/>
-            </Grid>
-            <Grid>
-                <Button HorizontalOptions="End" Text="New Hand" FontSize="Small"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

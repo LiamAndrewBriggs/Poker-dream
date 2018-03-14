@@ -41,8 +41,8 @@
                 </Grid>
             </Grid>
             <Grid Padding="10">
-                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Best Hand Is: N/A" FontSize="Small"/>
-                <Button HorizontalOptions="End" Text="More Info" FontSize="Small" />
+                <Label x:Name="bestHand" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Best Hand: N/A" FontSize="Small"/>
+                <Button HorizontalOptions="End" Text="More Info" FontSize="Small" Clicked="More_Info_Clicked"/>
             </Grid>
             <Grid>
                 <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "On the Table:" FontSize="Small"/>
@@ -102,7 +102,9 @@
                         </Image.GestureRecognizers>
                     </Image>
                 </Grid>
-                                
+            </Grid>
+            <Grid>
+                <Button HorizontalOptions="End" Text="New Hand" FontSize="Small" Clicked="New_Game"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

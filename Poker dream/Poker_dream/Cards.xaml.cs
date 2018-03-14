@@ -56,6 +56,22 @@ namespace Poker_dream
             {
                 Card_List.Items.Add(item.Key);
             }
+
+            MessagingCenter.Subscribe<Play, string>(this, "BestHand", (sender, e) => { bestHand.Text = e; });
+        }
+
+        public void New_Game()
+        {
+            selectedCards = new Dictionary<string, string>();
+            Card1.Source = "Not_Selected.jpg";
+            Card2.Source = "Not_Selected.jpg";
+            Card3.Source = "Not_Selected.jpg";
+            Card4.Source = "Not_Selected.jpg";
+            Card5.Source = "Not_Selected.jpg";
+            Card6.Source = "Not_Selected.jpg";
+            Card7.Source = "Not_Selected.jpg";
+
+            MessagingCenter.Send(this, "Cards_Pulled", selectedCards);
         }
 
         void Card_Changed(object sender, EventArgs args)
@@ -188,6 +204,54 @@ namespace Poker_dream
         {
             Card_List.Focus();
             selectedCard = "Card_7";
+        }
+
+        private void More_Info_Clicked(object sender, EventArgs e)
+        {
+            if(bestHand.Text == "Best Hand: N/A")
+            {
+                DisplayAlert("Hand Help", "No Cards Selected! Please select the cards you are dealt", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: High Card")
+            {
+                DisplayAlert("High Card", "You havent made any hands unfortunately so a high card is played, this is the 10th and the worst hand you could have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Pair")
+            {
+                DisplayAlert("Pair", "You have two cards of the same number value, this is the 9th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Two Pair")
+            {
+                DisplayAlert("Two Pair", "You have two different pairs of cards of the same number value, this is the 8th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Three of a kind")
+            {
+                DisplayAlert("Three of a kind", "You have three cards of the same number value, this is the 7th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Straight")
+            {
+                DisplayAlert("Straight", "You have five cards in a sequence, but not of the same suit, this is the 6th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Flush")
+            {
+                DisplayAlert("Flush", "You have any five cards of the same suit, but not in a sequence, this is the 5th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Full house")
+            {
+                DisplayAlert("Full house", "Three of a kind (three cards of the same number value) with a pair (two cards of the same number value), this is the 4th best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Four of a kind")
+            {
+                DisplayAlert("Four of a kind", "You have four cards of the same number value, this is the 3rd best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Straight Flush")
+            {
+                DisplayAlert("Straight Flush", "Five cards in a sequence, all in the same suit, this is the 2nd best hand to have", "OK");
+            }
+            else if (bestHand.Text == "Best Hand: Royal flush")
+            {
+                DisplayAlert("Royal flush", "A, K, Q, J, 10, all the same suit. , this is the  best hand you can have!!!", "OK");
+            }
         }
     }
 }

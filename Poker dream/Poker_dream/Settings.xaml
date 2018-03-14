@@ -12,29 +12,10 @@
                 <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Green" Text= "Game Settings:" FontSize="Large"/>
             </Grid>
             <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
-                <Label Text="Your Start Role:" FontSize="Medium" FontAttributes="Bold" TextColor="White"/>
-                <Picker x:Name="PlayerRole" IsVisible="False"
-                SelectedIndexChanged="PlayerRole_List">
-                    <Picker.Items>
-                        <x:String>Dealer</x:String>
-                        <x:String>Big Blind</x:String>
-                        <x:String>Small Blind</x:String>
-                        <x:String>Player</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Label x:Name="PlayerRoleLabel" Text="Dealer"
-               FontSize="Medium" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="PlayerRole_OnTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-            </Grid>
-            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
                 <Label Text="Number Of Players:" FontSize="Medium" FontAttributes="Bold" TextColor="White"/>
                 <Picker x:Name="NumPlayers" IsVisible="False"
                 SelectedIndexChanged="NumPlayers_List">
                     <Picker.Items>
-                        <x:String>2</x:String>
                         <x:String>3</x:String>
                         <x:String>4</x:String>
                         <x:String>5</x:String>
@@ -51,6 +32,32 @@
                FontSize="Medium" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="NumPlayers_OnTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <Grid HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+                <Label Text="Your Start Role:" FontSize="Medium" FontAttributes="Bold" TextColor="White"/>
+                <Picker x:Name="PlayerRole" IsVisible="False"
+                SelectedIndexChanged="PlayerRole_List">
+                    <Picker.Items>
+                        <x:String>Dealer</x:String>
+                        <x:String>Big Blind</x:String>
+                        <x:String>Small Blind</x:String>
+                        <x:String>Player 1</x:String>
+                        <x:String>Player 2</x:String>
+                        <x:String>Player 3</x:String>
+                        <x:String>Player 4</x:String>
+                        <x:String>Player 5</x:String>
+                        <x:String>Player 6</x:String>
+                        <x:String>Player 7</x:String>
+                        <x:String>Player 8</x:String>
+                        <x:String>Player 9</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="PlayerRoleLabel" Text="Dealer"
+               FontSize="Medium" FontAttributes="Bold" HorizontalOptions="End" TextColor="White">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PlayerRole_OnTapped"/>
                     </Label.GestureRecognizers>
                 </Label>
             </Grid>
@@ -104,7 +111,7 @@
             </Grid>
             <Grid VerticalOptions="End" Padding="15">
                 <Button HorizontalOptions="Start" Text="Save Settings" FontSize="Small" Clicked="Save_Button"/>
-                <Button HorizontalOptions="End" Text="How To Set Up" FontSize="Small"/>
+                <Button HorizontalOptions="End" Text="How To Set Up" FontSize="Small" Clicked="Setup_Button"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
