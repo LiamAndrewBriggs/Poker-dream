@@ -2,6 +2,10 @@ Poker_dream.Droid.MainActivity, Poker_dream.Android;md5e5c822f5d3633831a199bc896
 Poker_dream.Droid.MainActivity, Poker_dream.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e5c822f5d3633831a199bc896bfab000.MainActivity
 Poker_dream.Droid.MainActivity;md5e5c822f5d3633831a199bc896bfab000.MainActivity
 poker_dream.droid.MainActivity;md5e5c822f5d3633831a199bc896bfab000.MainActivity
+Poker_dream.Droid.TextToSpeechFunction, Poker_dream.Android;md5e5c822f5d3633831a199bc896bfab000.TextToSpeechFunction
+Poker_dream.Droid.TextToSpeechFunction, Poker_dream.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e5c822f5d3633831a199bc896bfab000.TextToSpeechFunction
+Poker_dream.Droid.TextToSpeechFunction;md5e5c822f5d3633831a199bc896bfab000.TextToSpeechFunction
+poker_dream.droid.TextToSpeechFunction;md5e5c822f5d3633831a199bc896bfab000.TextToSpeechFunction
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

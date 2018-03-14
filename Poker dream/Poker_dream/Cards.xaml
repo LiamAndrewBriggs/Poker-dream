@@ -10,7 +10,7 @@
             </Picker>
             <Grid>
                 <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Your Cards" FontSize="Large"/>
-                <Button HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Image="camera.png" />
+                <Button Clicked="Get_Card" HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Image="camera.png" />
             </Grid>
             <Grid>
                 <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "Your Hand:" FontSize="Small"/>

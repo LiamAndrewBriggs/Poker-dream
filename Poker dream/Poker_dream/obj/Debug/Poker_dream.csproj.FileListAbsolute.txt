@@ -51,3 +51,4 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csproj.CopyComplete
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.pdb
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csprojResolveAssemblyReference.cache

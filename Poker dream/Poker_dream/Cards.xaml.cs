@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Poker_dream
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Cards : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Cards : ContentPage
+    {
         private Dictionary<string, string> cardToPicture = new Dictionary<string, string>
         {
             { "2 of Hearts", "Heart_2.jpg" }, { "3 of Hearts", "Heart_3.jpg" },
@@ -49,7 +46,7 @@ namespace Poker_dream
         private string selectedCard = "";
 
         public Cards()
-		{
+        {
             InitializeComponent();
 
             foreach (var item in cardToPicture)
@@ -157,7 +154,7 @@ namespace Poker_dream
                     break;
             }
 
-            if(selectedCards.ContainsKey("Card_1") && selectedCards.ContainsKey("Card_2"))
+            if (selectedCards.ContainsKey("Card_1") && selectedCards.ContainsKey("Card_2"))
             {
                 MessagingCenter.Send(this, "Cards_Pulled", selectedCards);
             }
@@ -208,7 +205,7 @@ namespace Poker_dream
 
         private void More_Info_Clicked(object sender, EventArgs e)
         {
-            if(bestHand.Text == "Best Hand: N/A")
+            if (bestHand.Text == "Best Hand: N/A")
             {
                 DisplayAlert("Hand Help", "No Cards Selected! Please select the cards you are dealt", "OK");
             }
@@ -252,6 +249,16 @@ namespace Poker_dream
             {
                 DisplayAlert("Royal flush", "A, K, Q, J, 10, all the same suit. , this is the  best hand you can have!!!", "OK");
             }
+        }
+
+        private void Get_Card(object sender, EventArgs e)
+        {
+            DependencyService.Get<ITextToSpeech>().Speak("Hello from Xamarin Forms");
+        }
+
+        public interface ITextToSpeech
+        {
+            void Speak(string text);
         }
     }
 }
