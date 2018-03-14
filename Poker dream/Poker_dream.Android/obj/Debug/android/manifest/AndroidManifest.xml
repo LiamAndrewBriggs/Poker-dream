@@ -8,6 +8,9 @@
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <application android:label="Poker_dream.Android" android:name="md5e5c822f5d3633831a199bc896bfab000.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.Poker_dream.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+    </provider>
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Poker_dream" android:theme="@style/MainTheme" android:name="md5e5c822f5d3633831a199bc896bfab000.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -23,7 +26,7 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.Poker_dream" />
       </intent-filter>
     </receiver>
-    <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
     <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+    <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
   </application>
 </manifest>

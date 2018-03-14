@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Media;
+using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -251,9 +252,39 @@ namespace Poker_dream
             }
         }
 
-        private void Get_Card(object sender, EventArgs e)
+        //private void Get_Card(object sender, EventArgs e)
+        //{
+        //    DependencyService.Get<ITextToSpeech>().Speak("Hello from Xamarin Forms");
+        //}
+
+        private async void Get_Card(object sender, EventArgs e)
         {
-            DependencyService.Get<ITextToSpeech>().Speak("Hello from Xamarin Forms");
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":( No camera available.", "OK");
+                return;
+            }
+
+            var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
+            {
+                Directory = "Sample",
+                Name = "test.jpg"
+            });
+
+            if (file == null)
+                return;
+
+            await DisplayAlert("File Location", file.Path, "OK");
+
+            Image image = new Image();
+
+            image.Source = ImageSource.FromStream(() =>
+            {
+                var stream = file.GetStream();
+                return stream;
+            });
         }
 
         public interface ITextToSpeech

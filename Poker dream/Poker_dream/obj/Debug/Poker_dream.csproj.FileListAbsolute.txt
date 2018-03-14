@@ -51,7 +51,6 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csproj.CopyComplete
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.pdb
-C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csprojResolveAssemblyReference.cache
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Media.Abstractions.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Media.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Permissions.Abstractions.dll
