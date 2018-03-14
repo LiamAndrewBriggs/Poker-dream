@@ -2206,7 +2206,7 @@
           }
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -2224,6 +2224,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4521,7 +4524,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -4539,6 +4542,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -6872,7 +6878,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -6890,6 +6896,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9196,7 +9205,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -9214,6 +9223,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -11556,7 +11568,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -11574,6 +11586,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -13880,7 +13895,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -13898,6 +13913,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -16240,7 +16258,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.122203": {
+      "Xamarin.Forms/2.5.1.340284-pre2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -16258,6 +16276,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Poker_dream/1.0.0": {
+        "type": "project"
       }
     }
   },
@@ -25695,10 +25716,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Xamarin.Forms/2.5.0.122203": {
-      "sha512": "qg7A2IXbVV/5u9qqeiDhRMwpVEsbWKBxzeAtD0rTuntmaDB1Z7WuBg5IK2VBklJbKe2Ps8V9zBfEwgJIqPVJUw==",
+    "Xamarin.Forms/2.5.1.340284-pre2": {
+      "sha512": "8TtxDt5iMIX5i3oAjyYMKeqiUcd95XcIlS7o38ifj5rfnfvjoHwG3lMCpZy7zbwobaaPXrKLLIGM1eEbSQlleA==",
       "type": "package",
-      "path": "xamarin.forms/2.5.0.122203",
+      "path": "xamarin.forms/2.5.1.340284-pre2",
       "files": [
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
@@ -25873,15 +25894,20 @@
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.5.0.122203.nupkg.sha512",
+        "xamarin.forms.2.5.1.340284-pre2.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Poker_dream/1.0.0": {
+      "type": "project",
+      "path": "../Poker_dream/Poker_dream.csproj",
+      "msbuildProject": "../Poker_dream/Poker_dream.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.7",
-      "Xamarin.Forms >= 2.5.0.122203"
+      "Xamarin.Forms >= 2.5.1.340284-pre2"
     ],
     "UAP,Version=v10.0.10586": []
   },
@@ -25909,11 +25935,20 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.10586": {
+          "projectReferences": {
+            "C:\\Users\\User\\Google Drive\\Pokerdream_Latest\\Poker dream\\Poker dream\\Poker_dream\\Poker_dream.csproj": {
+              "projectPath": "C:\\Users\\User\\Google Drive\\Pokerdream_Latest\\Poker dream\\Poker dream\\Poker_dream\\Poker_dream.csproj"
+            }
+          }
+        }
       }
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "[6.0.7, )",
-      "Xamarin.Forms": "[2.5.0.122203, )"
+      "Xamarin.Forms": "[2.5.1.340284-pre2, )"
     },
     "frameworks": {
       "uap10.0.10586": {}
