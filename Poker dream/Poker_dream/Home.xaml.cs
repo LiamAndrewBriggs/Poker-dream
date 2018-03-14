@@ -18,10 +18,5 @@ namespace Poker_dream
             MyLocalImage.Source = ImageSource.FromFile("Pair_of_Aces.jpg");
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            DisplayAlert("Test", "Hello World", "OK");
-        }
-
     }
 }

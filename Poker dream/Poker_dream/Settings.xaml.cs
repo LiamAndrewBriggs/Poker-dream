@@ -15,7 +15,6 @@ namespace Poker_dream
         public Settings()
         {
             InitializeComponent();
-
         }
 
          private void PlayerRole_OnTapped(object sender, EventArgs e)
@@ -47,7 +46,7 @@ namespace Poker_dream
         {
             BlindTimeLabel.Text = BlindTime.Items[BlindTime.SelectedIndex];
         }
-
+        
         private void Save_Button(object sender, EventArgs e)
         {
             if (BlindAmount.Text == null)
@@ -62,6 +61,12 @@ namespace Poker_dream
                 DisplayAlert("", "Settings Saved", "OK");
             }
             
+        }
+
+        private void Setup_Button(object sender, EventArgs e)
+        {
+            DisplayAlert("Help", "The roles start with the dealer \n\nTo their left is the small blind \n\nTo their left is the big blind \n\nThen player 1 and so on \n\nBlind times and amount are decided amoungst players," +
+                "the big blind is the minimum you can bet per round \n\nBlind time is a countdown until this amount increases", "OK");
         }
     }
 }

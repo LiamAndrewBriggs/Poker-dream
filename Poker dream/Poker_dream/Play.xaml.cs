@@ -11,10 +11,10 @@ namespace Poker_dream
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Play : ContentPage
     {
-        int timeConverted = 0;
+        int timeConverted = 600;
         int timeCounter = 0;
         int originalMinutes = 0;
-        int minutes = 0;
+        int minutes = 10;
         int seconds = 0; 
         bool finishGame = false;
         bool otherHand = true;
@@ -28,7 +28,7 @@ namespace Poker_dream
         public Play()
         {
             InitializeComponent();
-            
+
             MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => { PlayerRole.Text = "Your role: " + e; });
             MessagingCenter.Subscribe<Settings, string>(this, "BlindAmount", (sender, e) => {
 
@@ -57,37 +57,51 @@ namespace Poker_dream
             MessagingCenter.Subscribe<Cards, Dictionary<string, string>>(this, "Cards_Pulled", (sender, e) => {
 
                 Dictionary<string, string> selectedCards = e;
-                                
-                foreach (var card in selectedCards)
+
+                if (selectedCards.Count == 0)
                 {
-                    string[] cardInformation = new string[3];
-                    string cardName = card.Value.Replace(".jpg", "");
-                    int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
+                    Card1.Source = "Not_Selected.jpg";
+                    Card2.Source = "Not_Selected.jpg";
+                    Card3.Source = "Not_Selected.jpg";
+                    Card4.Source = "Not_Selected.jpg";
+                    Card5.Source = "Not_Selected.jpg";
 
-                    cardInformation [card_suit] = cardName.Substring(0, charLocation);
-                    cardInformation [card_number] = cardName.Substring(charLocation + 1);
-                    cardInformation[card_picture] = card.Value;
-
-                    if(cardInformation[card_number] == "Jack")
-                    {
-                        cardInformation[card_number] = "11";
-                    }
-                    else if (cardInformation[card_number] == "Queen")
-                    {
-                        cardInformation[card_number] = "12";
-                    }
-                    else if (cardInformation[card_number] == "King")
-                    {
-                        cardInformation[card_number] = "13";
-                    }
-                    else if (cardInformation[card_number] == "Ace")
-                    {
-                        cardInformation[card_number] = "14";
-                    }
-
-                    cardInfo.Add(card.Key, cardInformation);
+                    BestHand.Text = "Best Hand: N/A";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
-                bestHand();
+                else
+                {
+                    foreach (var card in selectedCards)
+                    {
+                        string[] cardInformation = new string[3];
+                        string cardName = card.Value.Replace(".jpg", "");
+                        int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
+
+                        cardInformation[card_suit] = cardName.Substring(0, charLocation);
+                        cardInformation[card_number] = cardName.Substring(charLocation + 1);
+                        cardInformation[card_picture] = card.Value;
+
+                        if (cardInformation[card_number] == "Jack")
+                        {
+                            cardInformation[card_number] = "11";
+                        }
+                        else if (cardInformation[card_number] == "Queen")
+                        {
+                            cardInformation[card_number] = "12";
+                        }
+                        else if (cardInformation[card_number] == "King")
+                        {
+                            cardInformation[card_number] = "13";
+                        }
+                        else if (cardInformation[card_number] == "Ace")
+                        {
+                            cardInformation[card_number] = "14";
+                        }
+
+                        cardInfo.Add(card.Key, cardInformation);
+                    }
+                    bestHand();
+                }
 
             });
 
@@ -114,6 +128,7 @@ namespace Poker_dream
                 cardNumber.Add(card.Key, Int32.Parse(card.Value[card_number]));
                 cardSuit.Add(card.Key, card.Value[card_suit]);
             }
+
             
             if (cardInfo.Count < 3)
             {
@@ -221,6 +236,7 @@ namespace Poker_dream
                     Card5.Source = cardInfo[cardNumbers[4]][card_picture];
 
                     BestHand.Text = "Best Hand: Flush";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
                 else if (suitCount != 5 && numInOrder == 5)
                 {
@@ -231,6 +247,7 @@ namespace Poker_dream
                     Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
 
                     BestHand.Text = "Best Hand: Straight";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
                 else if (suitCount == 5 && numInOrder == 5 && biggestNumber != 14)
                 {
@@ -241,6 +258,7 @@ namespace Poker_dream
                     Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
 
                     BestHand.Text = "Best Hand: Straight flush";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
                 else if (suitCount == 5 && numInOrder == 5 && biggestNumber == 14)
                 {
@@ -251,6 +269,7 @@ namespace Poker_dream
                     Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
 
                     BestHand.Text = "Best Hand: Royal flush";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
 
 
@@ -316,6 +335,7 @@ namespace Poker_dream
                 }
 
                 BestHand.Text = "Best Hand: Four of a Kind";
+                MessagingCenter.Send(this, "BestHand", BestHand.Text);
             }
             else if (pairs.Count == 1)
             {
@@ -353,6 +373,7 @@ namespace Poker_dream
                     }
 
                     BestHand.Text = "Best Hand: Pair";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
                 else if (count == 3)
                 {
@@ -388,6 +409,7 @@ namespace Poker_dream
                     }
 
                     BestHand.Text = "Best Hand: Three of a Kind";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
             }
             else if (pairs.Count == 2)
@@ -477,6 +499,7 @@ namespace Poker_dream
                     }
 
                     BestHand.Text = "Best Hand: Two Pair";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
                 else
                 {
@@ -510,6 +533,7 @@ namespace Poker_dream
                     Card5.Source = cardInfo[cardNumbers[1]][card_picture];
 
                     BestHand.Text = "Best Hand: Full House";
+                    MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
             }
         }
@@ -534,6 +558,7 @@ namespace Poker_dream
             }
 
             BestHand.Text = "Best Hand: High Card";
+            MessagingCenter.Send(this, "BestHand", BestHand.Text);
         }
 
         private bool updateBlind()
@@ -593,6 +618,26 @@ namespace Poker_dream
                 return false;
             }
             
+        }
+
+        private void Role_Info_Clicked(object sender, EventArgs e)
+        {
+            if (PlayerRole.Text == "Your Role: Dealer")
+            {
+                DisplayAlert("Dealer", "You have to shuffle the cards and deal two to each player one at a time, then line five cards face down on the table", "OK");
+            }
+            else if (BestHand.Text == "Your Role: Big Blind")
+            {
+                DisplayAlert("Big Blind", "You have to bet the big blind amount on the first round", "OK");
+            }
+            else if (BestHand.Text == "Your Role: Small Blind")
+            {
+                DisplayAlert("Small Blind", "You are to the left of the dealer, and therefore start off the betting. You have to bet the pre arranged small blind amount until it comes back to you, at this point you can choose to match the bet.", "OK");
+            }
+            else if (BestHand.Text == "Your Role: Player")
+            {
+                DisplayAlert("Player", "You don't have to bet anything, unless you want to", "OK");
+            }
         }
     }
 }
