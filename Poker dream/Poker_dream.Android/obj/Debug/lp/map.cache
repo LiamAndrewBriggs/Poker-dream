@@ -42,3 +42,8 @@ Google.Apis.Auth.PlatformServices
 Grpc.Auth
 Google.Api.Gax.Grpc
 Google.Cloud.Vision.V1
+Plugin.CurrentActivity
+Plugin.Media.Abstractions
+Plugin.Permissions.Abstractions
+Plugin.Permissions
+Plugin.Media

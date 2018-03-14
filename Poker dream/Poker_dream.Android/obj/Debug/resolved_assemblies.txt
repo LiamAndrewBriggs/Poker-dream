@@ -17,6 +17,11 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\mscorlib.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Plugin.Media.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Plugin.Permissions.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\Poker_dream.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream.Android\obj\Debug\android\assets\System.dll
