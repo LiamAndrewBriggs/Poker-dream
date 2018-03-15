@@ -252,10 +252,54 @@ namespace Poker_dream
             }
         }
 
-        //private void Get_Card(object sender, EventArgs e)
-        //{
-        //    DependencyService.Get<ITextToSpeech>().Speak("Hello from Xamarin Forms");
-        //}
+        private void Voice_Help(object sender, EventArgs e)
+        {
+            if (bestHand.Text == "Best Hand: N/A")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have No Cards Selected! Please select the cards you are dealt");
+            }
+            else if (bestHand.Text == "Best Hand: High Card")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a High Card. You havent made any hands unfortunately so a high card is played, this is the 10th and the worst hand you could have");
+            }
+            else if (bestHand.Text == "Best Hand: Pair")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Pair. You have two cards of the same number value, this is the 9th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Two Pair")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Two Pair. You have two different pairs of cards of the same number value, this is the 8th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Three of a kind")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Three of a kind. You have three cards of the same number value, this is the 7th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Straight")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Straight. You have five cards in a sequence, but not of the same suit, this is the 6th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Flush")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Flush. You have any five cards of the same suit, but not in a sequence, this is the 5th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Full house")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Full. house Three of a kind (three cards of the same number value) with a pair (two cards of the same number value), this is the 4th best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Four of a kind")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Four. of a kind You have four cards of the same value, this is the 3rd best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Straight Flush")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Straight Flush. Five cards in a sequence, all in the same suit, this is the 2nd best hand to have");
+            }
+            else if (bestHand.Text == "Best Hand: Royal flush")
+            {
+                DependencyService.Get<ITextToSpeech>().Speak("You have a Royal flush. Ace, King, Queen, Jack, 10, all the same suit, this is the  best hand you can have!!!");
+            }
+            
+        }
 
         private async void Get_Card(object sender, EventArgs e)
         {
@@ -269,22 +313,20 @@ namespace Poker_dream
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
-                Directory = "Sample",
-                Name = "test.jpg"
+                SaveToAlbum = false
             });
 
             if (file == null)
                 return;
 
-            await DisplayAlert("File Location", file.Path, "OK");
-
-            Image image = new Image();
-
+            Image image = new Image(); 
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
                 return stream;
             });
+
+            Card7.Source = image.Source;
         }
 
         public interface ITextToSpeech

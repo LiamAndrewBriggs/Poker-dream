@@ -42,7 +42,8 @@
             </Grid>
             <Grid Padding="10">
                 <Label x:Name="bestHand" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Text= "Best Hand: N/A" FontSize="Small"/>
-                <Button HorizontalOptions="End" Text="More Info" FontSize="Small" Clicked="More_Info_Clicked"/>
+                <Button HorizontalOptions="End" WidthRequest="40" HeightRequest="40" Text="TH" FontSize="Micro" Clicked="Voice_Help"/>
+                <Button HorizontalOptions="Center" Text="More Info" FontSize="Small" Clicked="More_Info_Clicked"/>
             </Grid>
             <Grid>
                 <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text= "On the Table:" FontSize="Small"/>

@@ -63,3 +63,4 @@ C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Permissions.xml
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Permissions.Abstractions.pdb
 C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\User\Google Drive\Pokerdream_Latest\Poker dream\Poker dream\Poker_dream\obj\Debug\Poker_dream.csprojResolveAssemblyReference.cache

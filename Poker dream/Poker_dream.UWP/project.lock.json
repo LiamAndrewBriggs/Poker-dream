@@ -2249,9 +2249,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4592,9 +4589,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -6971,9 +6965,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9323,9 +9314,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -11711,9 +11699,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -14063,9 +14048,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -16451,9 +16433,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "Poker_dream/1.0.0": {
-        "type": "project"
       }
     }
   },
@@ -26148,11 +26127,6 @@
         "xamarin.forms.2.5.1.340284-pre2.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "Poker_dream/1.0.0": {
-      "type": "project",
-      "path": "../Poker_dream/Poker_dream.csproj",
-      "msbuildProject": "../Poker_dream/Poker_dream.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -26188,15 +26162,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
-      },
-      "frameworks": {
-        "uap10.0.10586": {
-          "projectReferences": {
-            "C:\\Users\\User\\Google Drive\\Pokerdream_Latest\\Poker dream\\Poker dream\\Poker_dream\\Poker_dream.csproj": {
-              "projectPath": "C:\\Users\\User\\Google Drive\\Pokerdream_Latest\\Poker dream\\Poker dream\\Poker_dream\\Poker_dream.csproj"
-            }
-          }
-        }
       }
     },
     "dependencies": {
