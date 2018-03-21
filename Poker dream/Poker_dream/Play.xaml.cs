@@ -49,6 +49,11 @@ namespace Poker_dream
             roles.Add("Player");
 
             MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => {
+                if (e.Contains("Player"))
+                {
+                    e = "Player";
+                }
+
                 PlayerRole.Text = "Your Role: " + e;
                 int count = 0;
 
@@ -683,15 +688,15 @@ namespace Poker_dream
             {
                 DisplayAlert("Dealer", "You have to shuffle the cards and deal two to each player one at a time, then line five cards face down on the table", "OK");
             }
-            else if (BestHand.Text == "Your Role: Big Blind")
+            else if (PlayerRole.Text == "Your Role: Big Blind")
             {
                 DisplayAlert("Big Blind", "You have to bet the big blind amount on the first round", "OK");
             }
-            else if (BestHand.Text == "Your Role: Small Blind")
+            else if (PlayerRole.Text == "Your Role: Small Blind")
             {
                 DisplayAlert("Small Blind", "You are to the left of the dealer, and therefore start off the betting. You have to bet the pre arranged small blind amount until it comes back to you, at this point you can choose to match the bet.", "OK");
             }
-            else if (BestHand.Text == "Your Role: Player")
+            else if (PlayerRole.Text == "Your Role: Player")
             {
                 DisplayAlert("Player", "You don't have to bet anything, unless you want to", "OK");
             }
@@ -776,15 +781,15 @@ namespace Poker_dream
             {
                 DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the dealer. You have to shuffle the cards and deal two to each player one at a time. Then line five cards face down on the table");
             }
-            else if (BestHand.Text == "Your Role: Big Blind")
+            else if (PlayerRole.Text == "Your Role: Big Blind")
             {
                 DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the big blind. You have to bet the big blind amount on the first round");
             }
-            else if (BestHand.Text == "Your Role: Small Blind")
+            else if (PlayerRole.Text == "Your Role: Small Blind")
             {
                 DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the small blind. You are to the left of the dealer, and therefore start off the betting. You have to bet the pre arranged small blind amount until it comes back to you, at this point you can choose to match the bet.");
             }
-            else if (BestHand.Text == "Your Role: Player")
+            else if (PlayerRole.Text == "Your Role: Player")
             {
                 DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are just a player. You don't have to bet anything, unless you want to");
             }
