@@ -1,22 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.App;
 using Android.Speech.Tts;
-using Android.Views;
-using Android.Widget;
 using static Poker_dream.Cards;
+using static Poker_dream.Settings;
+using static Poker_dream.Play;
 
 [assembly: Xamarin.Forms.Dependency(typeof(Poker_dream.Droid.TextToSpeechFunction))]
 namespace Poker_dream.Droid 
 {
-    class TextToSpeechFunction : Java.Lang.Object, ITextToSpeech, TextToSpeech.IOnInitListener
+    class TextToSpeechFunction : Java.Lang.Object, ITextToSpeech, ITextSettingsToSpeech, IPlaySettingsToSpeech, TextToSpeech.IOnInitListener
     {
         TextToSpeech speaker;
         string toSpeak;

@@ -23,13 +23,49 @@ namespace Poker_dream
         private const int card_number = 1;
         private const int card_picture = 2;
 
+        private List<string> roles = new List<string>();
+        private int numberPlayers;
+        private int playerRoleNumber;
+
         private Dictionary<string, string[]> cardInfo = new Dictionary<string, string[]>();
 
         public Play()
         {
             InitializeComponent();
 
-            MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => { PlayerRole.Text = "Your role: " + e; });
+            MessagingCenter.Subscribe<Settings, string>(this, "PlayerNumber", (sender, e) => { numberPlayers = Convert.ToInt32(e); });
+
+            roles.Add("Dealer");
+            roles.Add("Big Blind");
+            roles.Add("Small Blind");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+            roles.Add("Player");
+
+            MessagingCenter.Subscribe<Settings, string>(this, "PlayersRole", (sender, e) => {
+                PlayerRole.Text = "Your Role: " + e;
+                int count = 0;
+
+                foreach(var item in roles)
+                {
+                    if(item.Equals(e))
+                    {
+                        playerRoleNumber = count;
+                    }
+                    else
+                    {
+                        count++;
+                    }
+                }
+
+            });
+
             MessagingCenter.Subscribe<Settings, string>(this, "BlindAmount", (sender, e) => {
 
                 int bigBlind = Convert.ToInt32(e);
@@ -58,6 +94,14 @@ namespace Poker_dream
 
                 Dictionary<string, string> selectedCards = e;
 
+                playerRoleNumber++;
+                if(playerRoleNumber == numberPlayers)
+                {
+                    playerRoleNumber = 0;
+                }
+
+                PlayerRole.Text = "Your Role: " + roles[playerRoleNumber];
+
                 if (selectedCards.Count == 0)
                 {
                     Card1.Source = "Not_Selected.jpg";
@@ -73,32 +117,35 @@ namespace Poker_dream
                 {
                     foreach (var card in selectedCards)
                     {
-                        string[] cardInformation = new string[3];
-                        string cardName = card.Value.Replace(".jpg", "");
-                        int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
+                        if (!(card.Key.Contains("_Number")))
+                        {
+                            string[] cardInformation = new string[3];
+                            string cardName = card.Value.Replace(".jpg", "");
+                            int charLocation = cardName.IndexOf("_", StringComparison.Ordinal);
 
-                        cardInformation[card_suit] = cardName.Substring(0, charLocation);
-                        cardInformation[card_number] = cardName.Substring(charLocation + 1);
-                        cardInformation[card_picture] = card.Value;
+                            cardInformation[card_suit] = cardName.Substring(0, charLocation);
+                            cardInformation[card_number] = cardName.Substring(charLocation + 1);
+                            cardInformation[card_picture] = card.Value;
 
-                        if (cardInformation[card_number] == "Jack")
-                        {
-                            cardInformation[card_number] = "11";
-                        }
-                        else if (cardInformation[card_number] == "Queen")
-                        {
-                            cardInformation[card_number] = "12";
-                        }
-                        else if (cardInformation[card_number] == "King")
-                        {
-                            cardInformation[card_number] = "13";
-                        }
-                        else if (cardInformation[card_number] == "Ace")
-                        {
-                            cardInformation[card_number] = "14";
-                        }
+                            if (cardInformation[card_number] == "Jack")
+                            {
+                                cardInformation[card_number] = "11";
+                            }
+                            else if (cardInformation[card_number] == "Queen")
+                            {
+                                cardInformation[card_number] = "12";
+                            }
+                            else if (cardInformation[card_number] == "King")
+                            {
+                                cardInformation[card_number] = "13";
+                            }
+                            else if (cardInformation[card_number] == "Ace")
+                            {
+                                cardInformation[card_number] = "14";
+                            }
 
-                        cardInfo.Add(card.Key, cardInformation);
+                            cardInfo.Add(card.Key, cardInformation);
+                        }
                     }
                     bestHand();
                 }
@@ -205,26 +252,36 @@ namespace Poker_dream
                 suitCount = duplicates[0].Length - duplicates[0].Replace(",", "").Length;
             }
 
+            int tempNum = 1;
+
             foreach (var item in numberList)
             {
                 if(item.Value == countNumber - 1)
                 {
-                    numInOrder++;
+                    tempNum++;
                 }
                 else
                 {
-                    numInOrder = 1;
-                    biggestNumber = item.Value;
-                    ListPosition = loopCount;
+                    if (tempNum > numInOrder)
+                    {
+                        numInOrder = tempNum;
+                    }
+                    else
+                    {
+                        tempNum = 1;
+                        biggestNumber = item.Value;
+                        ListPosition = loopCount;
+                    }
+                    
                 }
 
                 countNumber = item.Value;
                 loopCount++;
             }
 
-            if (suitCount == 5 || numInOrder == 5)
+            if (suitCount >= 5 || numInOrder >= 5)
             {
-                if (suitCount == 5 && numInOrder !=5)
+                if (suitCount >= 5 && !(numInOrder >= 5))
                 {
                     duplicates[0] = Regex.Replace(duplicates[0], @"\s+", "");
                     List <string> cardNumbers = duplicates[0].Split(',').ToList();
@@ -238,7 +295,7 @@ namespace Poker_dream
                     BestHand.Text = "Best Hand: Flush";
                     MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
-                else if (suitCount != 5 && numInOrder == 5)
+                else if (!(suitCount >= 5) && numInOrder >= 5)
                 {
                     Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
                     Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
@@ -249,7 +306,7 @@ namespace Poker_dream
                     BestHand.Text = "Best Hand: Straight";
                     MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
-                else if (suitCount == 5 && numInOrder == 5 && biggestNumber != 14)
+                else if (suitCount >= 5 && numInOrder >= 5 && biggestNumber != 14)
                 {
                     Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
                     Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
@@ -257,10 +314,10 @@ namespace Poker_dream
                     Card4.Source = cardInfo[numberList[ListPosition + 3].Key][card_picture];
                     Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
 
-                    BestHand.Text = "Best Hand: Straight flush";
+                    BestHand.Text = "Best Hand: Straight Flush";
                     MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
-                else if (suitCount == 5 && numInOrder == 5 && biggestNumber == 14)
+                else if (suitCount >= 5 && numInOrder >= 5 && biggestNumber == 14)
                 {
                     Card1.Source = cardInfo[numberList[ListPosition].Key][card_picture];
                     Card2.Source = cardInfo[numberList[ListPosition + 1].Key][card_picture];
@@ -268,7 +325,7 @@ namespace Poker_dream
                     Card4.Source = cardInfo[numberList[ListPosition + 3].Key][card_picture];
                     Card5.Source = cardInfo[numberList[ListPosition + 4].Key][card_picture];
 
-                    BestHand.Text = "Best Hand: Royal flush";
+                    BestHand.Text = "Best Hand: Royal Flush";
                     MessagingCenter.Send(this, "BestHand", BestHand.Text);
                 }
 
@@ -638,6 +695,104 @@ namespace Poker_dream
             {
                 DisplayAlert("Player", "You don't have to bet anything, unless you want to", "OK");
             }
+        }
+
+        private void Tip_Clicked(object sender, EventArgs e)
+        {
+            if (Card3.Source.Equals("Not_Selected.jpg"))
+            {
+                DisplayAlert("Tip", "Match big blind bet, go as high as you you would like to gamble if you have higher cards or two of the same card", "OK");
+            }
+            else if (Card4.Source.Equals("Not_Selected.jpg") || Card5.Source.Equals("Not_Selected.jpg"))
+            {
+                DisplayAlert("Tip", "Go as high as you you would like to gamble. Bet higher if you have same suit or a sequence of numbers start to appear", "OK");
+            }
+            else if (BestHand.Text.Equals("Best Hand: High Card"))
+            {
+                DisplayAlert("Tip", "Go as high as you you would like to gamble. Bet higher if you have same suit or a sequence of numbers start to appear", "OK");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Pair") || BestHand.Text.Equals("Best Hand: Two Pair") || BestHand.Text.Equals("Best Hand: Three of a kind"))
+            {
+                DisplayAlert("Tip", "A risky bet, depending on how high the bet currently is, the higher the risk it will be", "OK");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Straight") || BestHand.Text.Equals("Best Hand: Flush"))
+            {
+                DisplayAlert("Tip", "A relatively safe bet as long as the bet amount does not get too high", "OK");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Full house") || BestHand.Text.Equals("Best Hand: Four of a kind"))
+            {
+                DisplayAlert("Tip", "A very high chance of winning, bet anything you are comfortable with", "OK");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Straight Flush") || BestHand.Text.Equals("Best Hand: Royal Flush"))
+            {
+                DisplayAlert("Tip", "Incredible hand! Bluff, bet, the choice is yours!!!", "OK");
+            }
+            else
+            {
+                DisplayAlert("Tip", "Wait for hand to be drawn", "OK");
+            }
+        }
+
+
+        private void Voice_Help_Tip(object sender, EventArgs e)
+        {
+            if (Card3.Source.Equals("Not_Selected.jpg"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("Match big blind bet, go as high as you you would like to gamble if you have higher cards or two of the same card");
+            }
+            else if (Card4.Source.Equals("Not_Selected.jpg") || Card5.Source.Equals("Not_Selected.jpg"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("Go as high as you you would like to gamble. Bet higher if you have same suit or a sequence of numbers start to appear");
+            }
+            else if (BestHand.Text.Equals("Best Hand: High Card"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("Unless the bet is no higher than the big blind there is no point betting, but bet a little higher if you have 4 of same suit or 4 in a sequence of numbers");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Pair") || BestHand.Text.Equals("Best Hand: Two Pair") || BestHand.Text.Equals("Best Hand: Three of a kind"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("A risky bet, depending on how high the bet currently is, the higher the risk it will be");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Straight") || BestHand.Text.Equals("Best Hand: Flush"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("A relatively safe bet as long as the bet amount does not get too high");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Full house") || BestHand.Text.Equals("Best Hand: Four of a kind"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("A very high chance of winning, bet anything you are comfortable with");
+            }
+            else if (BestHand.Text.Equals("Best Hand: Straight Flush") || BestHand.Text.Equals("Best Hand: Royal Flush"))
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("Incredible hand! Bluff, bet, the choice is yours!!!");
+            }
+            else
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("Wait for hand to be drawn");
+            }
+        }
+
+        private void Voice_Help_Role(object sender, EventArgs e)
+        {
+            if (PlayerRole.Text == "Your Role: Dealer")
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the dealer. You have to shuffle the cards and deal two to each player one at a time. Then line five cards face down on the table");
+            }
+            else if (BestHand.Text == "Your Role: Big Blind")
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the big blind. You have to bet the big blind amount on the first round");
+            }
+            else if (BestHand.Text == "Your Role: Small Blind")
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are the small blind. You are to the left of the dealer, and therefore start off the betting. You have to bet the pre arranged small blind amount until it comes back to you, at this point you can choose to match the bet.");
+            }
+            else if (BestHand.Text == "Your Role: Player")
+            {
+                DependencyService.Get<IPlaySettingsToSpeech>().Speak("You are just a player. You don't have to bet anything, unless you want to");
+            }
+        }
+
+        public interface IPlaySettingsToSpeech
+        {
+            void Speak(string text);
         }
     }
 }

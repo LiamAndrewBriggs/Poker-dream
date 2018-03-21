@@ -53,7 +53,11 @@
 
             </Grid>
             <Grid>
-                <Button HorizontalOptions="Center" Text="Tip" FontSize="Small"/>
+                <Button HorizontalOptions="Center" Text="Tip" FontSize="Small" Clicked="Tip_Clicked"/>
+            </Grid>
+            <Grid>
+                <Button HorizontalOptions="Start" Text="Tip Assistance" FontSize="Small" Clicked="Voice_Help_Tip"/>
+                <Button HorizontalOptions="End" Text="Role Assistance" FontSize="Small" Clicked="Voice_Help_Role"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

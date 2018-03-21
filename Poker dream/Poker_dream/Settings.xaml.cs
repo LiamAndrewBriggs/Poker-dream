@@ -56,6 +56,7 @@ namespace Poker_dream
             else
             {
                 MessagingCenter.Send(this, "PlayersRole", PlayerRoleLabel.Text);
+                MessagingCenter.Send(this, "PlayerNumber", NumPlayersLabel.Text);
                 MessagingCenter.Send(this, "BlindAmount", BlindAmount.Text);
                 MessagingCenter.Send(this, "BlindTime", BlindTimeLabel.Text);
                 DisplayAlert("", "Settings Saved", "OK");
@@ -65,8 +66,19 @@ namespace Poker_dream
 
         private void Setup_Button(object sender, EventArgs e)
         {
-            DisplayAlert("Help", "The roles start with the dealer \n\nTo their left is the small blind \n\nTo their left is the big blind \n\nThen player 1 and so on \n\nBlind times and amount are decided amoungst players," +
+            DisplayAlert("Help", "The roles start with the dealer \n\nTo their left is the small blind \n\nTo their left is the big blind \n\nThen player 1 and so on \n\nBlind times and amount are decided amongst players," +
                 "the big blind is the minimum you can bet per round \n\nBlind time is a countdown until this amount increases", "OK");
+        }
+
+        private void Setup_Speech_Button(object sender, EventArgs e)
+        {
+            DependencyService.Get<ITextSettingsToSpeech>().Speak("The roles start with the dealer. To their left is the small blind. To their left is the big blind. Then player 1 and so on. Blind times and amount are decided amongst players." +
+                "the big blind is the minimum you can bet per round. Blind time is a countdown until this amount increases");
+        }
+
+        public interface ITextSettingsToSpeech
+        {
+            void Speak(string text);
         }
     }
 }

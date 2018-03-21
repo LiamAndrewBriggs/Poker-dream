@@ -50,12 +50,12 @@ namespace Poker_dream
         {
             InitializeComponent();
 
+            MessagingCenter.Subscribe<Play, string>(this, "BestHand", (sender, e) => { bestHand.Text = e; });
+
             foreach (var item in cardToPicture)
             {
                 Card_List.Items.Add(item.Key);
             }
-
-            MessagingCenter.Subscribe<Play, string>(this, "BestHand", (sender, e) => { bestHand.Text = e; });
         }
 
         public void New_Game()
@@ -74,92 +74,125 @@ namespace Poker_dream
 
         void Card_Changed(object sender, EventArgs args)
         {
-            switch (selectedCard)
+            bool selected = false;
+
+            foreach (var item in selectedCards)
             {
-                case "Card_1":
-                    Card1.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_1"))
+                if(item.Key.Contains("_Number"))
+                {
+                    if(item.Value == Card_List.SelectedIndex.ToString())
                     {
-                        selectedCards["Card_1"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        selected = true;
                     }
-                    else
-                    {
-                        selectedCards.Add("Card_1", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_2":
-                    Card2.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_2"))
-                    {
-                        selectedCards["Card_2"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_2", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_3":
-                    Card3.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_3"))
-                    {
-                        selectedCards["Card_3"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_3", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_4":
-                    Card4.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_4"))
-                    {
-                        selectedCards["Card_4"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_4", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_5":
-                    Card5.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_5"))
-                    {
-                        selectedCards["Card_5"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_5", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_6":
-                    Card6.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_6"))
-                    {
-                        selectedCards["Card_6"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_6", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
-                case "Card_7":
-                    Card7.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    if (selectedCards.ContainsKey("Card_7"))
-                    {
-                        selectedCards["Card_7"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
-                    }
-                    else
-                    {
-                        selectedCards.Add("Card_7", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
-                    }
-                    break;
+                }
             }
 
-            if (selectedCards.ContainsKey("Card_1") && selectedCards.ContainsKey("Card_2"))
+            if (selected == true)
             {
-                MessagingCenter.Send(this, "Cards_Pulled", selectedCards);
+                DisplayAlert("Error", "Card already selected", "OK");
             }
+            else
+            {
+                switch (selectedCard)
+                {
+                    case "Card_1":
+                        Card1.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_1"))
+                        {
+                            selectedCards["Card_1"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_1_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_1", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_1_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_2":
+                        Card2.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_2"))
+                        {
+                            selectedCards["Card_2"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_2_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_2", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_2_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_3":
+                        Card3.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_3"))
+                        {
+                            selectedCards["Card_3"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_3_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_3", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_3_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_4":
+                        Card4.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_4"))
+                        {
+                            selectedCards["Card_4"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_4_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_4", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_4_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_5":
+                        Card5.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_5"))
+                        {
+                            selectedCards["Card_5"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_5_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_5", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_5_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_6":
+                        Card6.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_6"))
+                        {
+                            selectedCards["Card_6"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_6_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_6", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_6_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                    case "Card_7":
+                        Card7.Source = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                        if (selectedCards.ContainsKey("Card_7"))
+                        {
+                            selectedCards["Card_7"] = cardToPicture[Card_List.Items[Card_List.SelectedIndex]];
+                            selectedCards["Card_7_Number"] = Card_List.SelectedIndex.ToString();
+                        }
+                        else
+                        {
+                            selectedCards.Add("Card_7", cardToPicture[Card_List.Items[Card_List.SelectedIndex]]);
+                            selectedCards.Add("Card_7_Number", Card_List.SelectedIndex.ToString());
+                        }
+                        break;
+                }
 
+                if (selectedCards.ContainsKey("Card_1") && selectedCards.ContainsKey("Card_2"))
+                {
+                    MessagingCenter.Send(this, "Cards_Pulled", selectedCards);
+                }
+            }
         }
 
         void Card1_Tapped(object sender, EventArgs args)
@@ -246,7 +279,7 @@ namespace Poker_dream
             {
                 DisplayAlert("Straight Flush", "Five cards in a sequence, all in the same suit, this is the 2nd best hand to have", "OK");
             }
-            else if (bestHand.Text == "Best Hand: Royal flush")
+            else if (bestHand.Text == "Best Hand: Royal Flush")
             {
                 DisplayAlert("Royal flush", "A, K, Q, J, 10, all the same suit. , this is the  best hand you can have!!!", "OK");
             }
@@ -294,7 +327,7 @@ namespace Poker_dream
             {
                 DependencyService.Get<ITextToSpeech>().Speak("You have a Straight Flush. Five cards in a sequence, all in the same suit, this is the 2nd best hand to have");
             }
-            else if (bestHand.Text == "Best Hand: Royal flush")
+            else if (bestHand.Text == "Best Hand: Royal Flush")
             {
                 DependencyService.Get<ITextToSpeech>().Speak("You have a Royal flush. Ace, King, Queen, Jack, 10, all the same suit, this is the  best hand you can have!!!");
             }

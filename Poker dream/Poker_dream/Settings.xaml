@@ -113,6 +113,9 @@
                 <Button HorizontalOptions="Start" Text="Save Settings" FontSize="Small" Clicked="Save_Button"/>
                 <Button HorizontalOptions="End" Text="How To Set Up" FontSize="Small" Clicked="Setup_Button"/>
             </Grid>
+            <Grid VerticalOptions="End" Padding="15">
+                <Button HorizontalOptions="Center" Text="Set Up Assistance" FontSize="Small" Clicked="Setup_Speech_Button"/>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

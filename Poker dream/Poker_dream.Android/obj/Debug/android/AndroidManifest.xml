@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Poker_dream">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Poker_dream" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
@@ -7,7 +7,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-  <application android:label="Poker_dream.Android" android:name="md5e5c822f5d3633831a199bc896bfab000.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="Poker_dream.Android" android:icon="@drawable/ic_launcher" android:name="md5e5c822f5d3633831a199bc896bfab000.MainApplication" android:allowBackup="true" android:debuggable="true">
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.Poker_dream.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
